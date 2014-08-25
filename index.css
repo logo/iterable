@@ -1,21 +1,2 @@
-
-/**
- * Iterable logo.
- */
-
-.logo[data-logo="Iterable"] {
-  width: 3.647534698803735em;
-}
-
-.logo[data-logo="Iterable"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.05em 0 .15em -.1em;
-}
-
-.logo[data-logo="Iterable"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Iterable"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
